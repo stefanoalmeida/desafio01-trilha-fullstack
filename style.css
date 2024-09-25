@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background-default: #F5F4F0;
+  --border-primary: #D9D9D9;
+  --text-primary: #1B1B1B;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #E1624F;
+  --accent-blue: #0C51A7;
+  --accent-orange: #E95E10;
+  --accent-pink: #E5245E;
+  --accent-purple: #591B98;
+}
+
+:body {
+  font-family: "Open Sans", sans-serif;
+  color: var(--text-primary);
+}
+
+#container {
+  max-width: 1280px;
+  padding: 88px 80px 48px;
+  margin: auto;
+  background-color: var(--background-default);
+}
+
+#subtitle {
+  font-size: 18px;
+  color: var(--text-secondary);
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+main {
+  width: 1120px;
+  padding-top: 64px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-top: 1px solid var(--border-primary);
+  border-bottom: 1px solid var(--border-primary);
+}
+
+img {
+  border-radius: 28px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+#img-description {
+  margin-bottom: 24px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+span {
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: var(--text-headline);
+  margin-bottom: 8px;
+}
+
+.card:first-child {
+  margin-top: 64px;
+}
+
+.card h3 {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.card p {
+  margin-bottom: 16px;
+}
+
+.card ul li {
+  color: var(--accent-blue);
+  list-style: none;
+  padding-left: 12px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.card:nth-child(3) li:first-child {
+  color: var(--accent-purple);
+}
+
+.card:nth-child(3) li:nth-child(2) {
+  color: var(--accent-pink);
+}
+
+.card:nth-child(3) li:nth-child(3) {
+  color: var(--accent-orange);
+}
+
+.card + .card {
+  margin-top: 48px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 65px;
+}
+
+footer img {
+  vertical-align: middle;
+}
